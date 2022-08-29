@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>social media content analyser</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Blog---Recent-Posts-1.css">
+    <link rel="stylesheet" href="assets/css/Blog---Recent-Posts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg bg-info navigation-clean">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><br><strong>Social Media&nbsp;</strong>Analysis</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Schedule Post</a></li>
+                    <li class="nav-item"><a class="nav-link" href="instaapp.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Generate Campaign</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Instagram Insights</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="register-photo" style="background: rgb(255,255,255);">
+        <div class="form-container">
+            <div class="image-holder" style="background: url(&quot;assets/img/time.png&quot;) center / auto;"></div>
+            <form method="post">
+                <h2 class="text-center"><strong>Schedule post</strong></h2>
+                <p>Select time to schedule post.</p>
+                <div class="mb-3"></div>
+                <div class="mb-3"></div>
+                <div class="mb-3"><input class="form-control" type="date"></div>
+                <div class="mb-3"><input class="form-control" type="text" placeholder="Enter time">
+                    <div class="form-check"><label class="form-check-label"></label></div>
+                </div>
+                <div class="mb-3"><a class="btn btn-primary d-block w-100" role="button" href="createpost.html" data-bs-target="createpost.html">Create Post</a></div>
+            </form>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
